@@ -157,6 +157,7 @@ ul, ol { list-style: none; }
   display: flex; flex-direction: column; gap: 6px; padding: 14px 24px 22px;
   background: var(--bg-soft); border-bottom: 1px solid var(--line);
 }
+.mobile-nav[hidden] { display: none; }
 .mobile-nav a { padding: 13px 4px; font-weight: 600; color: var(--ink-mid); border-bottom: 1px solid var(--line-soft); }
 .mobile-nav a.btn { border: 1px solid transparent; margin-top: 10px; color: #fff; }
 
