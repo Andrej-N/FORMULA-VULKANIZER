@@ -11,16 +11,16 @@ Sajt je napravljen kao demo. Zameni sledeće placeholdere pravim podacima:
 
 | Šta | Gde u kodu | Trenutno (placeholder) |
 |-----|-----------|------------------------|
-| **Telefon** | ✅ unet: **065 880-6122** (`tel:+381658806122`) | gotovo |
-| **Adresa** | `index.html` — sekcija `#lokacija`, „unesite tačnu adresu" | „Beograd" |
-| **Radno vreme** | `index.html` — tabela `.hours` | 08–19 / Sub 08–15 |
-| **Recenzije** | `index.html` — sekcija `#recenzije` | ilustrativne (zameni Google recenzijama) |
-| **Statistika u hero-u** | `index.html` — `.hero-stats` (godine, minuti, ocena) | potvrdi tačne brojeve |
+| **Telefon** | ✅ uneto: **065 880-6122** (`tel:+381658806122`) | gotovo |
+| **Adresa** | ✅ uneto: **Mokroluška 82, 11010 Beograd** | gotovo |
+| **Ocena** | ✅ uneto: **4,9 ★ / 121 recenzija** (Google) | gotovo |
+| **Radno vreme** | ⚠️ `index.html` — tabela `.hours` | **placeholder** 08–19 / Sub 08–15 — POTVRDI |
+| **Recenzije (tekst)** | `index.html` — sekcija `#recenzije` | ilustrativne (zameni Google recenzijama) |
+| **Statistika (15 min, 20+ god)** | `index.html` — `.hero-stats` | potvrdi tačne brojeve |
 | **Mapa** | `index.html` — `iframe` koordinate `44.7779024,20.4969406` | proveri da pokazuje tačnu lokaciju |
 
-> Telefon se nalazi na **više mesta** (header, hero, lokacija, footer, sticky dugme, final CTA).
-> Najlakše: otvori `index.html` u editoru → Find & Replace `+381600000000` → pravi broj (format `+381XXXXXXXXX`),
-> pa `060 / 000-0000` → prikazni broj.
+> Jedino još fali **radno vreme** — ako se razlikuje od placeholdera, otvori `index.html`,
+> nađi tabelu `.hours` (sekcija `#lokacija`) i izmeni sate. Telefon, adresa i ocena su uneti.
 
 ---
 
