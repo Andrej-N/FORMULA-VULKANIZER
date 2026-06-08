@@ -11,7 +11,7 @@ Sajt je napravljen kao demo. Zameni sledeće placeholdere pravim podacima:
 
 | Šta | Gde u kodu | Trenutno (placeholder) |
 |-----|-----------|------------------------|
-| **Telefon** | `index.html` — pretraži `+381600000000` i `060 / 000-0000` | placeholder broj |
+| **Telefon** | ✅ unet: **065 880-6122** (`tel:+381658806122`) | gotovo |
 | **Adresa** | `index.html` — sekcija `#lokacija`, „unesite tačnu adresu" | „Beograd" |
 | **Radno vreme** | `index.html` — tabela `.hours` | 08–19 / Sub 08–15 |
 | **Recenzije** | `index.html` — sekcija `#recenzije` | ilustrativne (zameni Google recenzijama) |
